@@ -17,7 +17,7 @@ const config: Config = {
         RB: ["'Rubik'", "sans-serif"]
       },
       fontSize: {
-        '2.5xl': '1.7rem', 
+        '2.5xl': '1.8rem', 
       },
     },
   },
