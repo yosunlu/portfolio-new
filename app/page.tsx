@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <main >
       <Container>
-        <section className="h-screen">
+        <section className="min-h-screen">
           <About/>
         </section>
-        <section className="h-screen">
+        <section className="min-h-screen">
           <Project/>
         </section>
       </Container>
