@@ -5,6 +5,7 @@ import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 import { sendEmail } from "@/actions/sendEmail";
 import { useSectionInView } from "@/lib/hooks";
+import Footer from "./footer";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact", 0.5);
@@ -53,7 +54,7 @@ export default function Contact() {
         />
         <SubmitBtn />
       </form>
-
+      
     </section>
   );
 }

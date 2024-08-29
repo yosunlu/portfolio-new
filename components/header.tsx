@@ -42,28 +42,3 @@ export default function Header() {
     </header>
   );
 }
-
-{/* <li className="flex items-center justify-center" key={link.hash}>
-  <Link
-    className={clsx(
-      "flex items-center justify-center px-3 py-3 transition",
-      {
-        "text-gray-950 dark:text-gray-300": activeSection === link.name,
-        "text-gray-500 dark:text-gray-500 hover:text-gray-950 dark:hover:text-gray-300":
-          activeSection !== link.name,
-      }
-    )}
-    href={link.hash}
-    onClick={() => {
-      setActiveSection(link.name);
-    }}
-  >
-    {link.display}
-    {link.name === activeSection && (
-      <motion.span
-        className="absolute inset-0 border-2 border-emerald-700 rounded-full h-[3.5rem] w-[3rem] bg-slate-50"
-        layoutId="activeSection"
-      />
-    )}
-  </Link>
-</li> */}
