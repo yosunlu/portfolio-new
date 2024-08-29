@@ -17,7 +17,7 @@ export default function Projects() {
           <span className="underline-green">Full-Stack</span> Projects
         </SectionHeading2>
 
-        <div className="flex h-[18rem] space-x-3.5 mt-4">
+        <div className="flex h-[18rem] space-x-3.5 mt-6">
           {projectsData.map((project, index) => (
             <div key={index} className="flex-1 bg-slate-20">
               <Project {...project} />
@@ -31,7 +31,7 @@ export default function Projects() {
           <span className="underline-green">Course</span> Projects{" "}
         </SectionHeading2>
 
-        <div className="flex h-[18rem] space-x-3.5 mt-4">
+        <div className="flex h-[18rem] space-x-3.5 mt-6">
           {coursesData.map((project, index) => (
             <div key={index} className="flex-1 bg-slate-20">
               <Project {...project} />
