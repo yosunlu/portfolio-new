@@ -14,14 +14,17 @@ import DB764Img from "@/public/764.png";
 
 export const links = [
   {
+    display: "•",
     name: "About",
     hash: "#about",
   },
   {
+    display: "•",
     name: "Projects",
     hash: "#projects",
   },
   {
+    display: "•",
     name: "Contact",
     hash: "#contact",
   },

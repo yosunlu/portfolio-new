@@ -3,9 +3,11 @@ import Container from "@/components/container";
 import Project from "@/components/projects";
 import Contact from "@/components/contact";
 
+
 export default function Home() {
   return (
     <main >
+      <></>
       <Container>
         <section className="min-h-screen">
           <About/>

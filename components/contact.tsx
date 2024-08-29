@@ -4,10 +4,12 @@ import SectionHeading2 from "./section-heading2";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 import { sendEmail } from "@/actions/sendEmail";
+import { useSectionInView } from "@/lib/hooks";
 
-export default async function Contact() {
+export default function Contact() {
+  const { ref } = useSectionInView("Contact", 0.5);
   return (
-    <section className="flex flex-col font-RB">
+    <section className="flex flex-col font-RB" id="contact" ref={ref}>
       <SectionHeading> 
         Contact 
       </SectionHeading>

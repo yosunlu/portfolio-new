@@ -1,11 +1,15 @@
+"use client"
 import SectionHeading from "./section-heading";
 import SectionHeading2 from "./section-heading2";
 import Project from "./project";
 import { projectsData, coursesData } from "../lib/data";
+import { useActiveSectionContext } from "@/context/active-section-context"
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
+  const { ref } = useSectionInView("Projects", 0.3);
   return (
-    <section className="flex flex-col font-RB">
+    <section className="flex flex-col font-RB" id="projects" ref={ref}>
       <SectionHeading>Projects</SectionHeading>
 
       <div className="h-[22rem]">
@@ -22,7 +26,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className=" h-[22rem] pt-2">
+      <div className=" h-[22rem] pt-7">
         <SectionHeading2>
           <span className="underline-green">Course</span> Projects{" "}
         </SectionHeading2>
