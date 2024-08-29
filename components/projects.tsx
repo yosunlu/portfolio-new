@@ -33,6 +33,10 @@ export default function Projects() {
               <Project {...project} />
             </div>
           ))}
+
+          {projectsData.length > coursesData.length && (
+            <div className="flex-1 bg-slate-20"></div>
+          )}
         </div>
       </div>
     </section>

@@ -128,15 +128,6 @@ export const coursesData = [
     githubUrl: "https://github.com/yosunlu/External-Merge-Sort",
     URL:""
   },
-  {
-    title: "Operating Systems",
-    description:
-      "Projects completed for CS537: Operating Systems. These projects cover key aspects of operating systems, including system calls, scheduling algorithms, memory management, parallel processing, and file systems",
-    tags: ["Operating Systems", "xv6", "Linux", "System Calls", "Stride Scheduling", "Memory Management", "Parallel Processing", "File Systems"],
-    imageUrl: osImg,
-    githubUrl: "https://github.com/yosunlu/UW-Madison-Operating-Systems",
-    URL:""
-  },
 ] as const;
 
 

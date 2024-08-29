@@ -1,7 +1,7 @@
 import About from "@/components/about";
 import Container from "@/components/container";
 import Project from "@/components/projects";
-import Image from "next/image";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -12,6 +12,9 @@ export default function Home() {
         </section>
         <section className="min-h-screen">
           <Project/>
+        </section>
+        <section className="min-h-screen">
+          <Contact/>
         </section>
       </Container>
       

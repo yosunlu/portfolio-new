@@ -26,10 +26,10 @@ export default function Project({
         <Image
           src={imageUrl}
           alt="onlymemes"
-          className="object-cover  h-[18rem] rounded-xl opacity-90 transition-opacity hover:opacity-5"
+          className="object-cover h-[18rem] rounded-xl opacity-90 transition-opacity hover:opacity-5"
         />
 
-        <div className="absolute overflow-auto min-h-full inset-0 flex flex-col justify-between bg-white bg-opacity-100 text-black opacity-0 duration-200 hover:opacity-90 p-3">
+        <div className="absolute overflow-auto min-h-full inset-0 flex flex-col justify-between bg-white bg-opacity-100 text-black opacity-0 transition duration-200 hover:opacity-90 p-3">
           <ul className="flex flex-wrap w-full ">
             {tags.map((tag, index) => (
               <li
