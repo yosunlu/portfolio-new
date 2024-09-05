@@ -37,7 +37,7 @@ export const projectsData = [
       "Explore this Taiwanese proverb and everyday language dictionary, enhanced with LLM support and built on AWS services. Discover and filter content by the tags that interest you the most!",
     tags: ["React", "express", "postgresql", "CI/CD", "langchain", 'RDS', "ECS"],
     imageUrl: taiwaniaImg,
-    URL: "",
+    URL: "https://taiwania.co",
     githubUrl: "https://github.com/yosunlu/taiwania-backend",
     
   },
